@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Books</title>
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+	<link rel="stylesheet" href="css/Style.css">
+	
+	
+
+	<style>
+		body{
+			margin-top: 70px;
+			background-color: #333;
+			color: #fff;
+		}
+	</style>
+
+
+</head>
+<body>
+
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 mx-auto">
+					<h1 class="display-4 text-center">Weight Converter</h1>
+					<form action="#">
+						<div class="form-group">
+							<input type="number" class="form-control form-control-lg" placeholder="Enter Pounds.." id="ibsinput">
+						</div>
+					</form>
+					<div id="output">
+						<div class="card bg-primary mb-3">
+							<div class="card-block">
+								<h4 class="text-dark">Grams : </h4>
+								<div id="gramsoutput" class="bg-primary"></div>
+							</div>
+						</div>
+
+						<div class="card bg-warning mb-3">
+							<div class="card-block">
+								<h4 class="text-dark">Kilograms : </h4>
+								<div id="kgoutput" class="bg-primary"></div>
+							</div>
+						</div>
+
+						<div class="card bg-success mb-3">
+							<div class="card-block">
+								<h4 class="text-dark">Ounces : </h4>
+								<div id="ozoutput" class="bg-primary"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		
+
+		<script type="text/javascript" src="main.js"></script>
+
+
+	<!-- script part -------------------------------------->
+
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
